@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Get_Playbook') {
             steps {
-                git 'git@github.com:sanjayapradhan/jenkinansible.git'
+                git 'https://github.com/sanjayapradhan/jenkinansible.git'
             }
         }
         stage('Run_Playbook') {
